@@ -12,11 +12,11 @@ main {
 
 .container {
   display: grid;
-  gap: 30px;
-  max-width: 1440px;
+  gap: 25px;
+  width: 1200px;
 }
 .box {
-  padding: 35px;
+  padding: 25px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -80,12 +80,12 @@ main {
   color: hsl(0, 0%, 81%);
 }
 .box h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: hsl(0, 0%, 100%);
 }
 .box p {
   color: hsl(0, 0%, 81%);
-  line-height: 1.6;
+  line-height: 1.5;
 }
 .box:nth-child(5) p,
 .box:nth-child(3) p {
